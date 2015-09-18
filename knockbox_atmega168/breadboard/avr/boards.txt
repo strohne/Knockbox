@@ -1,0 +1,22 @@
+##############################################################
+
+atmega168pa.name=ATmega168PA on a breadboard (8 MHz internal clock)
+
+atmega168pa.upload.protocol=arduino
+atmega168pa.upload.maximum_size=14336
+atmega168pa.upload.speed=19200
+atmega168pa.upload.tool=arduino:avrdude
+
+atmega168pa.bootloader.tool=arduino:avrdude
+atmega168pa.bootloader.low_fuses=0xE2
+atmega168pa.bootloader.high_fuses=0xDE
+atmega168pa.bootloader.extended_fuses=0x05
+atmega168pa.bootloader.file=ATmegaBOOT_168_pro_8MHz.hex
+atmega168pa.bootloader.unlock_bits=0x3F
+atmega168pa.bootloader.lock_bits=0x0F
+
+atmega168pa.build.mcu=atmega168p
+atmega168pa.build.f_cpu=8000000L
+atmega168pa.build.core=arduino:arduino
+atmega168pa.build.variant=arduino:standard
+
